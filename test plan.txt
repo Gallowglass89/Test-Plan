@@ -1,0 +1,68 @@
+Test Master Plan - Notepad Testing
+Version 1.0.0
+Oliver
+reinersmann.89@gmail.com
+
+Introduction: 
+Purpose: test the options of Notepad application
+Scope: 2 business days
+Human resources: 4 employees
+
+Test Items:
+
+Test Plan tasks: https://skillupqa123.testrail.net/index.php?/suites/view/1&group_by=cases:section_id&group_order=asc&group_id=13
+Testrail Section Oliver
+Test SubSections - Notepad functional testing pt 1,  Notepad functional testing pt 2 and Notepad functional testing pt 3
+Guides: http://www.digitalcitizen.life/beginners-guide-notepad
+
+Features to be tested:
+- All Options under option File - risks - H
+- All Options under option Edit - risks - H
+- All Options under option Format - risks - M
+
+Features not to be tested:
+- Options under View. Reason - not enough resources to be completed in current sprint; to be included in the next sprint under high priority
+- Options under About. Reason - not relevant to the main functionalities of the application; next sprint with trivial priority
+
+Approach:
+
+No special tools to be used
+One configuration to be tested - Notepad application options (SW)
+
+Item Pass/Fail criteria:
+Pass
+- Subsections Notepad functional testing pt 1, 2 & pt 3 to be have all test cases complete
+- minor defect is located but does not influence the functionalities of the app
+Fail
+- Any test case under mentioned subsections is incomplete
+
+
+Suspension criteria:
+- - Test cases under Notepad functional testing pt 1, 2 & pt 3 subsections to detect any major app defect
+
+Test tasks:
+
+Notepad functional testing pt 1 - Testers 1 and 2
+Tester 1 (Junior)
+ - Tasks C71-76
+Tester 2 (Middle)
+ - Tasks C77-80
+ Notepad functional testing pt 2 - Testers 3 and 4
+Tester 3 (Junior)
+ - Tasks C81-85
+Tester 4 (middle)
+ - Tasks C86-91
+Notepad functional testing pt 2 - Tester 5
+Tester 5 (junior)
+ - Tasks C92-95
+ 
+Environmental needs:
+Windows OS supporting Notepad; Notepad up and running; functional keyboard and mouse
+Access to: https://skillupqa123.testrail.net/index.php?/suites/view/1&group_by=cases:section_id&group_order=asc&group_id=13
+
+
+
+
+
+
+
