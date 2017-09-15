@@ -1,0 +1,74 @@
+Test Master Plan - Notepad Testing
+Version 1.0.0
+Oliver
+reinersmann.89@gmail.com
+
+Introduction: 
+Purpose: test the options of Notepad application
+Notepad is a basic Windows built-in text editor application designed to work with various document formats and apply simpliest modifications to them. 
+Its main advantages are low PC resources usage, easy to navigate menu and exceptionally quick access.
+Its main disadvantages are scarcity and shallowness of options for text modification and overall document design.
+
+Test Items:
+
+- All Options under option File - risks - C
+- All Options under option Edit - risks - H
+- All Options under option Format - risks - M
+
+Test Plan tasks: https://skillupqa123.testrail.net/index.php?/suites/view/1&group_by=cases:section_id&group_order=asc&group_id=13
+Testrail Section Oliver
+Test Checklists - Notepad functional testing pt 1,  Notepad functional testing pt 2 and Notepad functional testing pt 3
+Guides: http://www.digitalcitizen.life/beginners-guide-notepad
+
+Features to be tested:
+
+- File
+Open, New, Close, Save, Save As, Page setup, Print
+
+- Edit 
+Undo, Cut, Copy, Paste, delete, Find, Find next, Replace, Go to, Select all, Time/date
+
+- Format
+Word wrap, font (font size, font, type)
+
+Features not to be tested:
+- Options under View. Reason - not enough resources to be completed in current sprint; to be included in the next sprint under high priority
+- Options under About. Reason - not relevant to the main functionalities of the application; next sprint with trivial priority
+
+Approach:
+
+Scope: 2 business days
+Human resources: 5 employees
+No special tools to be used
+One configuration to be tested - Notepad application options (SW)
+Responsibilities: Overseer/team lead - Tester 2
+
+Item Pass/Fail criteria:
+
+- Checklist 'Notepad functional testing pt 1' - Critical priority: pass if all test cases under that list are 100% complete; fail if any one is not
+- Checklist 'Notepad functional testing pt 2' - High priority: pass if 80% of test cases are complete; fail if more than 20% are incomplete
+- Checklist 'Notepad functional testing pt 3' - Medium priority: pass if 60% of test cases are complete; fail if more than 40% are incomplete
+
+Suspension criteria:
+
+- Test cases under Notepad functional testing pt 1, 2 & pt 3 checklists to detect any major app defect
+
+Test tasks:
+
+Notepad functional testing pt 1 - Testers 1 and 2
+Tester 1 (Junior)
+ - Open, New, Close, Save, Save As
+Tester 2 (Middle)
+ - Page setup, Print
+ Notepad functional testing pt 2 - Testers 3 and 4
+Tester 3 (Junior)
+ - Undo, Cut, Copy, Paste, delete
+Tester 4 (middle)
+ - Find, Find next, Replace, Go to, Select all, Time/date
+Notepad functional testing pt 2 - Tester 5
+Tester 5 (junior)
+ - Word wrap, font (font size, font, type)
+ 
+Environmental needs:
+Windows OS supporting Notepad; Notepad up and running; functional keyboard and mouse
+Access to: https://skillupqa123.testrail.net/index.php?/suites/view/1&group_by=cases:section_id&group_order=asc&group_id=13
